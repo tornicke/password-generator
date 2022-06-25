@@ -4,19 +4,19 @@
 <p>The purpose of this challenge is to create an application that an employee can use to generate a random password based on criteria they've selected.</p>
 
 <h2>User Story</h2>
-<p><h3>
-<li>AS AN employee with access to sensitive data<li>
-<li>I WANT to randomly generate a password that meets certain criteria<li>
+<p>
+<li>AS AN employee with access to sensitive data</li>
+<li>I WANT to randomly generate a password that meets certain criteria</li>
 <li>SO THAT I can create a strong password that provides greater security</li>
-</h3></p>
+</p>
 
 <h2>Acceptance Criteria</h2>
-<p><li>GIVEN I need a new, secure password,<li>
-<li>WHEN I click the button to generate a password<li>
-<li>THEN I am presented with a series of prompts for password criteria<li>
-<li>WHEN prompted for password criteria<li>
+<p><li>GIVEN I need a new, secure password,</li>
+<li>WHEN I click the button to generate a password</li>
+<li>THEN I am presented with a series of prompts for password criteria</li>
+<li>WHEN prompted for password criteria</li>
 <li>THEN I select which criteria to include in the password</li>
-<li>WHEN prompted for the length of the password<li>
+<li>WHEN prompted for the length of the password</li>
 <li>THEN I choose a length of at least 8 characters and no more than 128 characters</li>
 <li>WHEN asked for character types to include in the password<li>
 <li>THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters</li>
