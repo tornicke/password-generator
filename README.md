@@ -10,9 +10,9 @@
 
 <h2>Acceptance Criteria</h2>
 <p>
-<ul><li>GIVEN I need a new, secure password,</li>
-<li>WHEN I click the button to generate a password</li>
-<li>THEN I am presented with a series of prompts for password criteria</li>
+<ul><li>GIVEN I need a new, secure password,
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria</li>
 <li>WHEN prompted for password criteria</li>
 <li>THEN I select which criteria to include in the password</li>
 <li>WHEN prompted for the length of the password</li>
