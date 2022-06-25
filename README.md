@@ -26,7 +26,7 @@
 <li>THEN the password is either displayed in an alert or written to the page</li></p>
 
 <h2>Required URLs:</h2>
-![image](#LINK) - UPDATE!
+![image](LINK) - UPDATE!
 
 <h2>Required URLs:</h2>
 
