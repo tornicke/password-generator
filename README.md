@@ -25,7 +25,7 @@
 <li>WHEN the password is generated</li>
 <li>THEN the password is either displayed in an alert or written to the page</li></p>
 
-<h2>Acceptance Criteria</h2>
+<h2>Grading Criteria</h2>
 <p><li>Satisfies all of the above acceptance criteria plus the Challenge should not produce any errors in the console when you inspect it using Chrome DevTools</li>
 <li>Application deployed at live URL.</li>
 <li>Application loads with no errors.</li>
