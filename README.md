@@ -10,7 +10,7 @@
 
 <h2>Acceptance Criteria</h2>
 <p>
-<ul><li>GIVEN I need a new, secure password,
+<li>GIVEN I need a new, secure password,
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria</li>
 <li>WHEN prompted for password criteria</li>
@@ -24,7 +24,7 @@ THEN I am presented with a series of prompts for password criteria</li>
 <li>WHEN all prompts are answered</li>
 <li>THEN a password is generated that matches the selected criteria</li>
 <li>WHEN the password is generated</li>
-<li>THEN the password is either displayed in an alert or written to the page</li></ul></p>
+<li>THEN the password is either displayed in an alert or written to the page</li></p>
 
 <h2>Grading Criteria</h2>
 <p><li>Satisfies all of the above acceptance criteria plus the Challenge should not produce any errors in the console when you inspect it using Chrome DevTools</li>
