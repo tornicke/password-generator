@@ -25,7 +25,22 @@
 <li>WHEN the password is generated</li>
 <li>THEN the password is either displayed in an alert or written to the page</li></p>
 
-<h2>Required URLs:</h2>
+<h2>Acceptance Criteria</h2>
+<p><li>Satisfies all of the above acceptance criteria plus the Challenge should not produce any errors in the console when you inspect it using Chrome DevTools</li>
+<li>Application deployed at live URL.</li>
+<li>Application loads with no errors.</li>
+<li>Application GitHub URL submitted.</li>
+<li>GitHub repository that contains application code.</li>
+<li>Application user experience is intuitive and easy to navigate.</li>
+<li>Application user interface style is clean and polished.</li>
+<li>Application resembles the mock-up functionality provided in the Challenge instructions.</li>
+<li>Repository has a unique name.</li>
+<li>Repository follows best practices for file structure and naming conventions.</li>
+<li>Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.</li>
+<li>Repository contains multiple descriptive commit messages.</li>
+<li>Repository contains a quality README file with description, screenshot, and link to deployed application.</li></p>
+
+<h2>Screenshot</h2>
 ![image](LINK) - UPDATE!
 
 <h2>Required URLs:</h2>
