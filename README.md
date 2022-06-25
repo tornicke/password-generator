@@ -25,8 +25,11 @@
 <li>WHEN the password is generated</li>
 <li>THEN the password is either displayed in an alert or written to the page</li></p>
 
-<h2>Screenshot</h2>
-UPDATE THE LINK!
-![image]()
+<h2>Required URLs:</h2>
+![image](#LINK) - UPDATE!
 
 <h2>Required URLs:</h2>
+
+[Live deployment URL](#LINK) - UPDATE!
+
+[GitHub repository URL](#LINK) - UPDATE!
