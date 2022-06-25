@@ -4,9 +4,11 @@
 <p>The purpose of this challenge is to create an application that an employee can use to generate a random password based on criteria they've selected.</p>
 
 <h2>User Story</h2>
-<p><li>AS AN employee with access to sensitive data<li>
+<p>
+<li>AS AN employee with access to sensitive data<li>
 <li>I WANT to randomly generate a password that meets certain criteria<li>
-<li>SO THAT I can create a strong password that provides greater security</li></p>
+<li>SO THAT I can create a strong password that provides greater security</li>
+</p>
 
 <h2>Acceptance Criteria</h2>
 <p><li>GIVEN I need a new, secure password,<li>
