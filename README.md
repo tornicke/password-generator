@@ -30,6 +30,6 @@
 
 <h2>Required URLs:</h2>
 
-[Live deployment URL](#LINK) - UPDATE!
+[Live deployment URL](LINK) - UPDATE!
 
-[GitHub repository URL](#LINK) - UPDATE!
+[GitHub repository URL](LINK) - UPDATE!
