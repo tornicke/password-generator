@@ -23,4 +23,4 @@
 <li>WHEN all prompts are answered</li>
 <li>THEN a password is generated that matches the selected criteria</li>
 <li>WHEN the password is generated</li>
-<li>THEN the password is either displayed in an alert or written to the page<li></p>
+<li>THEN the password is either displayed in an alert or written to the page</li></p>
