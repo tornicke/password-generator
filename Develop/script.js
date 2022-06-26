@@ -40,7 +40,11 @@ var possibleCharacters = []
   possibleCharacters = possibleCharacters.concat(lowercaseLetters)
   }
 
-  //! Repeat this for other character types
+  // Asking users if they want numbers in their password
+  var allowNumbers = confirm ("Do you want to include numbers in your password? Please click 'OK' to continue.")
+  if (allowNumbers) {
+  possibleCharacters = possibleCharacters.concat(numbers)
+  }
 }
 
 // Get references to the #generate element
