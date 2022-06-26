@@ -1,9 +1,10 @@
 // Assignment code here
 
 // Listing special characters
-var specialCharacters = ["!", "*", "%"]
+var specialCharacters = ["!", "”", "#", "$", "%", "&", "’", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\", "]", "^", "_", "`", "{", "|", "}", "~",]
 
 // ! Complete the list of special characters
+// ! Include "space"? 
 
 // ! Repeat this for other character types
 
@@ -26,13 +27,13 @@ var possibleCharacters = []
   possibleCharacters = possibleCharacters.concat(specialCharacters)
   }
 
-  //Repeat this for other character types
+  // Repeat this for other character types
 }
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
+//Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
