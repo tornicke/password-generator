@@ -1,5 +1,33 @@
 // Assignment code here
 
+// Listing special characters
+var specialCharacters = ["!", "*", "%"]
+
+// ! Complete the list of special characters
+
+// ! Repeat this for other character types
+
+function generatePassword() {
+var possibleCharacters = []
+
+  // Getting the user input for the length
+  var length = prompt("enter the length of your password")
+  length = parseInt(length)
+ 
+  // Validating user input (length of the password)
+  if (length < 8 || length > 128) {
+    alert("incorrect value")
+    return;
+  }
+
+  //Asking users if they want special characters
+  var allowSpecialCharacters = confirm ("Do you want spec. characters")
+  if (allowSpecialCharacters) {
+  possibleCharacters = possibleCharacters.concat(specialCharacters)
+  }
+
+  //Repeat this for other character types
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -15,3 +43,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+ 
