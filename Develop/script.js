@@ -28,6 +28,12 @@ var possibleCharacters = []
   possibleCharacters = possibleCharacters.concat(specialCharacters)
   }
 
+  // Asking users if they want uppercase letters
+  var allowUppercaseLetters = confirm ("Do you want to include uppercase letters in your password?")
+  if (allowUppercaseLetters) {
+  possibleCharacters = possibleCharacters.concat(uppercaseLetters)
+  }
+
   //! Repeat this for other character types
 }
 
