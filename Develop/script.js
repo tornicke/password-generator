@@ -22,16 +22,22 @@ var possibleCharacters = []
     return;
   }
 
-  // Asking users if they want special characters and giving examples of special characters in case they do not know what those are
+  // Asking users if they want special characters in their password and giving examples of special characters in case they do not know what those are
   var allowSpecialCharacters = confirm ("Do you want to include special characters in your password (e.g. !, #, $, etc.)? Please click 'OK' to continue.")
   if (allowSpecialCharacters) {
   possibleCharacters = possibleCharacters.concat(specialCharacters)
   }
 
-  // Asking users if they want uppercase letters
+  // Asking users if they want uppercase letters in their password
   var allowUppercaseLetters = confirm ("Do you want to include uppercase letters in your password? Please click 'OK' to continue.")
   if (allowUppercaseLetters) {
   possibleCharacters = possibleCharacters.concat(uppercaseLetters)
+  }
+
+  // Asking users if they want lowercase letters in their password
+  var allowLowercaseLetters = confirm ("Do you want to include lowercase letters in your password? Please click 'OK' to continue.")
+  if (allowLowercaseLetters) {
+  possibleCharacters = possibleCharacters.concat(lowercaseLetters)
   }
 
   //! Repeat this for other character types
