@@ -13,12 +13,12 @@ function generatePassword() {
 var possibleCharacters = []
 
   // Getting the user input for the length
-  var length = prompt("enter the length of your password")
+  var length = prompt("How many characters should your password have? Please enter a number between 8 and 128.")
   length = parseInt(length)
  
   // Validating user input (length of the password)
   if (length < 8 || length > 128) {
-    alert("incorrect value")
+    alert("You have chosen a number that is smaller than 8 or bigger than 128. Please try again.")
     return;
   }
 
