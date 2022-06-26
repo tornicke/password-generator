@@ -22,13 +22,13 @@ var possibleCharacters = []
     return;
   }
 
-  // Asking users if they want special characters
-  var allowSpecialCharacters = confirm ("Do you want spec. characters")
+  // Asking users if they want special characters and giving examples of special characters in case they do not know what those are
+  var allowSpecialCharacters = confirm ("Do you want to include special characters in your password (e.g. !, #, $, etc.)?")
   if (allowSpecialCharacters) {
   possibleCharacters = possibleCharacters.concat(specialCharacters)
   }
 
-  // Repeat this for other character types
+  //! Repeat this for other character types
 }
 
 // Get references to the #generate element
