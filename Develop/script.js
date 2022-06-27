@@ -39,6 +39,7 @@ function generatePassword() {
 }
 
 function getPrompts() {
+  possibleCharacters = [];
   // Getting the user input for the length
   length = parseInt(prompt("How many characters should your password have? Please enter a number between 8 and 128."));
  
