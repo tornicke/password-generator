@@ -1,3 +1,5 @@
+var length = 8;
+var possibleCharacters = [];
 
 // Defining specialCharacters variable, listing individual special characters
 var specialCharacters = ["!", "”", "#", "$", "%", "&", "`", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", ","];
