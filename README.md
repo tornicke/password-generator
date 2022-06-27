@@ -37,6 +37,6 @@
 
 <h2>Required URLs:</h2>
 
-[Live deployment URL](LINK) - UPDATE!
+[Live deployment URL](https://tornicke.github.io/password-generator/)
 
-[GitHub repository URL](LINK) - UPDATE!
+[GitHub repository URL](https://github.com/tornicke/password-generator.git)
