@@ -1,4 +1,7 @@
+// Setting length and possibleCharacter variables
+// 8 is placed below as the "starter point"
 var length = 8;
+// possibleCharacters include special characters, uppercase letters, lowercase letters and numbers
 var possibleCharacters = [];
 
 // Defining specialCharacters variable, listing individual special characters
