@@ -32,7 +32,7 @@
 <li>Repository contains a quality README file with description, screenshot, and link to deployed application.</li></p>
 
 <h2>Screenshot</h2>
-![image](LINK) - UPDATE!
+![image](https://github.com/tornicke/password-generator/blob/81bfeb9419bc0398f2c645f860e034c7e64e0cc5/Assets/Screenshot.jpeg)
 
 <h2>Required URLs:</h2>
 
