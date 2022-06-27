@@ -29,6 +29,8 @@ function writePassword() {
     var myPassword = generatePassword(); //myPassword instead of password, to avoid confusion below
     passwordText.value = myPassword; 
   } else {
+    //Adding "Cannot generate password" alert to indicate that users need to restart the password selection process
+    alert("Cannot generate password. Please try again.");
     passwordText.value = "";
   }
 }
@@ -45,6 +47,7 @@ function generatePassword() {
 
 // Establishing getPrompts that includes validating the user input and 4 confirms (one for each character type)
 function getPrompts() {
+  console.log("text1")
   possibleCharacters = [];
   // Getting and validating the user input for the length (between 8 and 128 characters)
   length = parseInt(prompt("How many characters should your password have? Please enter a number between 8 and 128."));
@@ -60,7 +63,7 @@ function getPrompts() {
   var allowSpecialCharacters = confirm ("Do you want to include special characters in your password (e.g. !, #, $, etc.)? Please click 'OK' to continue.");
   if (allowSpecialCharacters) {
   possibleCharacters = possibleCharacters.concat(specialCharacters); //concat will populate possibleCharacters with specialCharacters
-  }
+  } console.log(possibleCharacters)
 
   // Asking users if they want uppercase letters in their password
   var allowUppercaseLetters = confirm ("Do you want to include uppercase letters in your password? Please click 'OK' to continue.");
@@ -79,7 +82,13 @@ function getPrompts() {
   if (allowNumbers) {
   possibleCharacters = possibleCharacters.concat(numbers); //concat will populate possibleCharacters with numbers
   }
-  return true;
+
+  if (possibleCharacters.length === 0) {
+    return false;
+    } else { //Adding else
+      return true;
+    }
+
 }
 
 
