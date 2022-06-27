@@ -20,22 +20,24 @@ var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
+// Adjust the order of the below items, placing var passwordText above and adding if/else for prompts that will be displayed to the user
 function writePassword() {
   var myPrompts = getPrompts();
   var passwordText = document.querySelector("#password");
 
   if (myPrompts) {
-    var myPassword = generatePassword();
-    passwordText.value = myPassword;
+    var myPassword = generatePassword(); //myPassword instead of password, to avoid confusion below
+    passwordText.value = myPassword; 
   } else {
     passwordText.value = "";
   }
 }
 
+// Defining the for loop for the password
 function generatePassword() {
   var password = "";
   for(var i = 0; i < length; i++) {
-    var randomNumber = Math.floor(Math.random() * possibleCharacters.length);
+    var randomNumber = Math.floor(Math.random() * possibleCharacters.length); 
     password = password + possibleCharacters[randomNumber];
   }
   return password; 
