@@ -32,18 +32,15 @@ function writePassword() {
 function generatePassword() {
   var password = "";
   for(var i = 0; i < length; i++) {
-    var randomCharacter = Math.floor(Math.random() * possibleCharacters.length);
-    password = password + possibleCharacters[randomCharacter];
+    var randomCharacter = Math.floor(Math.random() * length);
+    password += password + possibleCharacters[randomCharacter];
   }
   return password; 
 }
 
 function getPrompts() {
-  possibleCharacters = [];
-
   // Getting the user input for the length
-  var length = prompt("How many characters should your password have? Please enter a number between 8 and 128.");
-  length = parseInt(length)
+  length = parseInt(prompt("How many characters should your password have? Please enter a number between 8 and 128."));
  
   // Validating user input (length of the password)
   if (isNaN(length) || length < 8 || length > 128) {
