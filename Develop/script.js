@@ -50,9 +50,10 @@ function getPrompts() {
   length = parseInt(prompt("How many characters should your password have? Please enter a number between 8 and 128."));
  
   // Validating user input (length of the password)
-  if (isNaN(length) || length < 8 || length > 128) {
+  // isNaN - to make sure that the user input is not a word (it needs to be a number)
+  if (isNaN(length) || length < 8 || length > 128) { // Making sure that the user input is not a word and it is between 8 and 128 characters
     alert("You have chosen a number that is smaller than 8 or bigger than 128 or typed a word. Please try again.");
-    return false;
+    return false; // Returning false if the user input does not meet the criteria
   }
 
   // Asking users if they want special characters in their password and giving examples of special characters in case they do not know what those are
