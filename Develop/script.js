@@ -45,7 +45,7 @@ function getPrompts() {
  
   // Validating user input (length of the password)
   if (isNaN(length) || length < 8 || length > 128) {
-    alert("You have chosen a number that is smaller than 8 or bigger than 128. Please try again.");
+    alert("You have chosen a number that is smaller than 8 or bigger than 128 or typed a word. Please try again.");
     return false;
   }
 
