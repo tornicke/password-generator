@@ -32,8 +32,8 @@ function writePassword() {
 function generatePassword() {
   var password = "";
   for(var i = 0; i < length; i++) {
-    var randomCharacter = Math.floor(Math.random() * length);
-    password += password + possibleCharacters[randomCharacter];
+    var randomNumber = Math.floor(Math.random() * possibleCharacters.length);
+    password = password + possibleCharacters[randomNumber];
   }
   return password; 
 }
